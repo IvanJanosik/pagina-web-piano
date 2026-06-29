@@ -1,0 +1,44 @@
+/* 'body' aplica estilos a toda la pantalla entera de la página */
+body {
+    /* Define los tipos de letra; si el usuario no tiene la primera, intenta con las siguientes en orden */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    /* Color de fondo de la pantalla (un gris muy clarito casi blanco) */
+    background-color: #f4f4f4;
+
+    /* Color del texto (un gris oscuro, casi negro, para que no canse la vista) */
+    color: #333;
+
+    /* Quita el margen que los navegadores traen por defecto para que la web ocupe todo el ancho */
+    margin: 0;
+
+    /* Deja un espacio de colchón de 20 píxeles entre el borde de la pantalla y el contenido */
+    padding: 20px;
+
+    /* Centra absolutamente todos los textos que estén dentro del cuerpo */
+    text-align: center;
+}
+
+/* 'header' aplica estilos únicamente al bloque del encabezado negro */
+header {
+    /* Color de fondo negro para el bloque del encabezado */
+    background-color: #111;
+
+    /* Color del texto en blanco para que resalte sobre el fondo negro */
+    color: #fff;
+
+    /* Espaciado interno: 40 píxeles arriba/abajo y 20 píxeles a los costados */
+    padding: 40px 20px;
+
+    /* Redondea las esquinas del bloque negro para que se vea más moderno */
+    border-radius: 8px;
+}
+
+/* 'h1' modifica específicamente el tamaño y separación del título principal */
+h1 {
+    /* Quita cualquier espacio o margen que el título traiga por defecto */
+    margin: 0;
+
+    /* Modifica el tamaño de la letra (2.5 veces el tamaño normal) */
+    font-size: 2.5rem;
+}
